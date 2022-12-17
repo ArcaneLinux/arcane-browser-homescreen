@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    border: none;
+    font-size: 20px;
+    border-radius: 9px;
+    padding: 32px 32px;
+}
+
+/* Custom Theme */
+.header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.background {
+    padding: 0;
+    background-image: url("assets/img_redwood.png");
+    height: 100%;
+}
+
+.contents {
+    padding: 3px;
+    text-align: center;
+}
+
+/* Redwood */
+.background-redwood {
+    background-image: url("assets/img_redwood.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
