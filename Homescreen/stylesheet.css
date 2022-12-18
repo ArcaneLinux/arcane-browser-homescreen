@@ -8,6 +8,16 @@ button {
     font-size: 20px;
     border-radius: 9px;
     padding: 32px 32px;
+    background-color: #CABDBD;
+    color: #271515 ;
+}
+
+button:hover {
+    background-color: #a78585;
+}
+
+h1, h2 {
+    color: #120C0C;
 }
 
 /* Custom Theme */
@@ -15,18 +25,23 @@ button {
     text-align: center;
     width: 100%;
     height: auto;
-
 }
 
 .background {
     padding: 0;
-    background-image: url("assets/img_redwood.png");
-    height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .contents {
+    transform: translate(0%, 60%);
     padding: 3px;
     text-align: center;
+}
+body {
+    font-family: "Microsoft Himalaya", Himalaya, serif;
+    font-size: 26px;
+    background-image: url("assets/img_redwood_forest.png")
 }
 
 /* Redwood */
